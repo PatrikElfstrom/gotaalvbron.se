@@ -1,6 +1,8 @@
 <?php
 
 function getBridgeStatus() {
+    global $api_key;
+    
 	$api_format = 'json';
 	$api_url = 'http://data.goteborg.se/BridgeService/v1.0/GetGABOpenedStatus/'.$api_key.'?format='.$api_format;
 

@@ -3,6 +3,11 @@
 require_once('config.php');
 
 function databaseConnection() {
+	global $host;
+	global $username;
+	global $password;
+	global $database;
+
 	return mysqli_connect($host, $username, $password, $database);
 }
 
@@ -58,6 +63,11 @@ function updateBridgeStatus($bridge_status) {
 }
 
 function sendTweet($parameters) {
+	global $oauth_access_token;
+	global $oauth_access_token_secret;
+	global $consumer_key;
+	global $consumer_secret;
+	
 	/** Set access tokens here - see: https://dev.twitter.com/apps/ **/
 	$settings = array(
 	    'oauth_access_token' => $oauth_access_token,
