@@ -10,7 +10,7 @@ $last_bridge_date = $last_bridge ? $last_bridge['timestamp'] : '';
 
 ?><!DOCTYPE html>
 <html>
-	<head>
+    <head>
         <meta charset="utf-8" />
         <title itemprop="name">Hisingsbron.se</title>
         <meta name="description" itemprop="description" content="Är Göta älvbron öppen?">
@@ -80,10 +80,10 @@ $last_bridge_date = $last_bridge ? $last_bridge['timestamp'] : '';
             text-decoration: none;
         }
         </style>
-	</head>
-	<body>
-		<h1>Är Göta älvbron öppen?</h1>
-		<p><?php echo $bridge_status ? 'Ja' : 'Nej'; ?></p>
+    </head>
+    <body>
+        <h1>Är Göta älvbron öppen?</h1>
+        <p><?php echo $bridge_status ? 'Ja' : 'Nej'; ?></p>
         <footer><small>
             <a href="mailto:info@hisingsbron.se">info@hisingsbron.se</a><br/>
             <a target="_blank" href="https://twitter.com/Hisingsbron">@Hisingsbron</a>
@@ -96,5 +96,5 @@ $last_bridge_date = $last_bridge ? $last_bridge['timestamp'] : '';
             ga('create', 'UA-2643871-16', 'auto');
             ga('send', 'pageview');
         </script>
-	</body>
+    </body>
 </html>
