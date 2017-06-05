@@ -1,3 +1,2 @@
-.htaccess
-log/
-config.php
+node_modules
+config.json

@@ -1,0 +1,26 @@
+{
+  "name": "hisingsbron",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "express": "^4.13.3",
+    "gulp": "*",
+    "sass": "*"
+  },
+  "description": "Är Götaälvbron öppen?",
+  "main": "app.js",
+  "devDependencies": {
+    "cron": "^1.1.0",
+    "dateformat": "^1.0.12",
+    "express-handlebars": "^2.0.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1",
+    "mysql": "^2.11.1",
+    "twitter": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrik Elfström",
+  "license": "MIT"
+}
